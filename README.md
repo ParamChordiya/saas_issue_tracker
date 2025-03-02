@@ -19,21 +19,21 @@ After starting the Streamlit dashboard, you can:
 
 # SaaS-Issue-Tracker/
 ```sh
-│── backend/ # Backend (Flask API)
-│   │── app.py # Main Flask API
-│   │── database.py # Database setup with SQLite
-│   │── logger.py # Structured logging module
-│   │── models.py # Database models
-│   │── services.py # Additional services (future use)
-│   └── tasks.py # Celery background tasks (automated resolution)
-│── frontend/ # Frontend (Streamlit UI)
-│   │── dashboard.py # Streamlit dashboard for issue triage
-│   └── config.py # Configuration settings
-│── requirements.txt # Project dependencies
-│── README.md # Project documentation
-│── run.sh # Shell script to start backend and frontend
-│── celery_worker.sh # Shell script to start Celery worker
-└── .env # Environment variables
+│── backend/ 
+│   │── app.py 
+│   │── database.py 
+│   │── logger.py 
+│   │── models.py 
+│   │── services.py 
+│   └── tasks.py
+│── frontend/ 
+│   │── dashboard.py 
+│   └── config.py
+│── requirements.txt
+│── README.md 
+│── run.sh
+│── celery_worker.sh
+└── .env 
 ```
 
 ---
