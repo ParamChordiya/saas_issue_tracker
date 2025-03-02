@@ -44,7 +44,6 @@ After starting the Streamlit dashboard, you can:
 - **Database:** SQLite (SQLAlchemy)
 - **Logging:** Python `logging` module
 - **Automation:** Celery, Redis
-- **Deployment:** Docker (optional)
 
 ---
 
