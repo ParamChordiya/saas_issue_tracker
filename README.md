@@ -18,6 +18,7 @@ After starting the Streamlit dashboard, you can:
 ## Project Structure
 
 # SaaS-Issue-Tracker/
+```sh
 │── backend/ # Backend (Flask API)
 │   │── app.py # Main Flask API
 │   │── database.py # Database setup with SQLite
@@ -33,7 +34,7 @@ After starting the Streamlit dashboard, you can:
 │── run.sh # Shell script to start backend and frontend
 │── celery_worker.sh # Shell script to start Celery worker
 └── .env # Environment variables
-
+```
 
 ---
 
